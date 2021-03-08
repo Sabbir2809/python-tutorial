@@ -4,13 +4,13 @@ def isEven(number):
     else:
         return False
 
+
+user_input = int(input("Limit: "))
+
 even_numbers = []
 odd_numbers = []
 starting = 0
-user_input = int(input("Limit: "))
-
 while starting <= user_input:
-
     if isEven(starting):
         # print(f"{starting} is Even")
         even_numbers.append(starting)

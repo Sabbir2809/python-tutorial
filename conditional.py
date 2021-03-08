@@ -1,13 +1,7 @@
-number = int(input("Give a number: "))
-theUser_isGood = number >= 80
-message = "The number is grater than or equals 80: "+ str(theUser_isGood)
-# print(f"the number is grater than or quals 80: {theUser_isGood}")
-print(message)
 marks = int(input("What is your marks in programming: "))
 
 def show_grade(grade):
     print(f"You got: {grade}")
-
 
 if marks >= 80:
     show_grade("A+")
@@ -32,3 +26,11 @@ if marks > 80 or marks < 33:
         print("Not so good!")
 else:
     print("You are okay")
+
+
+number = int(input("Give a number: "))
+
+isGood = number >= 80
+message = "The number is grater than or equals 80: "+ str(isGood)
+# print(f"the number is grater than or quals 80: {theUser_isGood}")
+print(message)

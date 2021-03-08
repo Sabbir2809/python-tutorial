@@ -9,7 +9,6 @@ with open("fileRead_intro.txt", mode="r") as i_file:
 
     print(words_all)
     print(len(words_all))
-
     unique_words = set(words_all)
     print(len(unique_words))
 

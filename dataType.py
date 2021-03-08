@@ -1,19 +1,20 @@
-number_value = 32
-second_value = 4
+x_value = 10
+y_value = 5
 
-addition = number_value + second_value
-subtraction = number_value - second_value
-mul = number_value * 2
-div = number_value / 2
-div_int = number_value // 2
-remainder = number_value % 5
+add = x_value + y_value
+sub = x_value - y_value
+mul = y_value * 2
+div = x_value / 2
+div_int = x_value // 2
+remainder = y_value % 5
 
-print(f"Addition: {addition}")
-print(f"Subtraction: {subtraction}")
-print(f"Mul: {mul}")
-print(f"Div: {div}")
-print(f"Div_int: {div_int}")
+print(f"Addition: {add}")
+print(f"Subtraction: {sub}")
+print(f"Multipication: {mul}")
+print(f"Division: {div}")
+print(f"Division_integar: {div_int}")
 print(f"Remainder: {remainder}")
+print(end="\n")
 
 first_name = "Sabbir"
 last_name = " Hossain"
@@ -24,5 +25,4 @@ print(concatenated_string)
 
 sabbir_with_value = first_name + " " + str(value)
 print(sabbir_with_value)
-
 print(f"Length of name: {len(sabbir_with_value)}")

@@ -1,4 +1,4 @@
-# Return Function
+# Return Type Function
 def addTwoValue(first, second):
     return first + second
 
@@ -7,17 +7,17 @@ numberTwo = 20
 # print(f"{numberOne} + {numberTwo} = {numberOne+numberTwo}")
 sum = addTwoValue(numberOne, numberTwo)
 print(f"{numberOne} + {numberTwo} = {sum}")
+print("")
 
-
-# Void Function
+# Void Type Function
 print("Start")
-def complicatedLogic(first, second):
-    print(f"You Passed: {first}, {second}")
-    # return first + second * 12 - 4 * 12
+def complicatedLogic(num1, num2):
+    print(f"You Passed: {num1}, {num2}")
 
 number_1 = 2
 number_2 = 3
 print("Middle")
+
 complicatedLogic(number_1, number_2)
 complicatedLogic(8, 9)
 print("End")
